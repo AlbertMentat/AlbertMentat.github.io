@@ -11,11 +11,11 @@ Hi, I'm a senior student from [SJTU Paris Elite Institute of Technology](https:/
 
 News
 ======
-- **2024.12**: 1 paper is accepted by ICASSP!
+- **2024.12** 1 paper is accepted by ICASSP!
 
 Publications
 ======
 
 Internships
 ======
-- **2023.06-Now**: Intern in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
+- **2023.06-Now** Intern in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
