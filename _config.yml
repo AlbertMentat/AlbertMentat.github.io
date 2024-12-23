@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Pan Junyu / Site Title"
+title                    : "Pan Junyu"
 title_separator          : "-"
 name                     : &name "Pan Junyu"
 description              : &description "personal description"
