@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm a senior student from [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Currently I am a undergraduate at [Center for Brain-like Computing and Machine Intelligence (BCMI)](https://bcmi.sjtu.edu.cn/), under the supervision of [Weilong Zheng](https://weilongzheng.github.io/). My reasearch interests in affective brain-computer interfaces. Now I focus on Emotion Recognition in natural states and Large Brain Model. If you have any interest in it, please feel free to discuss with me.
+Hi, I'm a senior student from [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Currently I am a undergraduate at [Center for Brain-like Computing and Machine Intelligence (BCMI)](https://bcmi.sjtu.edu.cn/), under the supervision of [Weilong Zheng](https://weilongzheng.github.io/). My reasearch interests in affective brain-computer interfaces. Now I focus on Emotion Recognition in a natural states and Large Brain Model. If you have any interest in it, please feel free to discuss with me.
 
 News
 ======
