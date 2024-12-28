@@ -22,4 +22,4 @@ Projects
 
 Internships
 ======
-- **2023.06-Now** Intern in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
+- **2023.06-Now** Research Assistant in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
