@@ -15,6 +15,7 @@ News
 
 Publications
 ======
+- **Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios**
 
 Projects
 ======
