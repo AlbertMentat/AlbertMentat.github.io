@@ -11,9 +11,7 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Bachelor of Engineering, SJTU Paris Elite Institute of Technology, September 2022 -- June 2026 (Expected)
 
 Work experience
 ======
