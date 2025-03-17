@@ -19,7 +19,7 @@ News
 
 Publications
 ======
-- **Jun-Yu Pan**, Hao-Long Yin, Wei-Long Zheng (2025). Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
+- **Jun-Yu Pan**, Hao-Long Yin, Wei-Long Zheng (2025). [Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios](https://ieeexplore.ieee.org/document/10889052). IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
 
 Projects
 ======
