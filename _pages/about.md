@@ -43,3 +43,4 @@ July 2024 -- Present
 Internships
 ======
 - **2023.06-Now** Research Assistant in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
+- **2025.03-Now** Internship in Microsoft Research Asia (MSRA).
