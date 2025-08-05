@@ -44,7 +44,7 @@ July 2024 -- April 2025
 ### Multimodal Emotion Recognition
 *Machine Learning and Affective Intelligence*
 
-September 2024 -- Now
+September 2024 -- July 2025
 - This study extended the previous work and proposed a Game-Induced Multimodal Affective Dataset.
 - Explore multimodal emotion recognition in the game scenarios.
 
@@ -56,4 +56,4 @@ April 2025 -- Now
 Internships
 ======
 - **2023.06-Now** Research Assistant in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
-- **2025.03-Now** Internship in Microsoft Research Asia (MSRA). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
+- **2025.04-Now** Internship in Microsoft Research Asia (MSRA). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
