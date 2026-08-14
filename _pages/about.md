@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+**English** &nbsp;·&nbsp; [中文](/zh/)
+
 Hi, I'm **Jun-Yu Pan**. I will begin an M.Eng. in Electronic Information at the [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), in September 2026, advised by [Prof. Wei-Long Zheng](https://weilongzheng.github.io/). I received my B.Eng. from the same institute in June 2026, with an Outstanding Bachelor's Thesis of Shanghai Jiao Tong University (Top 1%).
 
 I am currently a Research Intern with the Shanghai AI/ML Group at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/). My research focuses on **EEG foundation models**, **multimodal large language models (MLLMs)**, and their applications to neural understanding and affective computing.
@@ -63,4 +65,4 @@ Research Experience
 - **Apr. 2025--Present:** Research Intern, Shanghai AI/ML Group, [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
 - **Jun. 2023--Jun. 2026:** Research Assistant, [BCMI](https://bcmi.sjtu.edu.cn/), Shanghai Jiao Tong University. Advisor: [Prof. Wei-Long Zheng](https://weilongzheng.github.io/).
 
-[Download my CV](/files/Jun-Yu_Pan_CV.pdf)
+[English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf) &nbsp;·&nbsp; [中文简历（PDF）](/files/Jun-Yu_Pan_CV_ZH.pdf)
