@@ -26,7 +26,7 @@ Education
 Research Experience
 ======
 - **Microsoft Research Asia (MSRA)**, Research Intern<br>
-  April 2025 -- Present | Advisor: Yansen Wang<br>
+  Shanghai AI/ML Group | April 2025 -- Present | Advisor: Yansen Wang<br>
   Research on data-centric EEG foundation models and EEG-MLLM alignment, spanning pretraining-data curation, multi-dataset fine-tuning, and generative visual grounding.
 
 - **BCMI, Shanghai Jiao Tong University**, Research Assistant<br>
