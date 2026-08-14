@@ -65,4 +65,4 @@ Research Experience
 - **Apr. 2025--Present:** Research Intern, Shanghai AI/ML Group, [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
 - **Jun. 2023--Jun. 2026:** Research Assistant, [BCMI](https://bcmi.sjtu.edu.cn/), Shanghai Jiao Tong University. Advisor: [Prof. Wei-Long Zheng](https://weilongzheng.github.io/).
 
-[English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf) &nbsp;·&nbsp; [中文简历（PDF）](/files/Jun-Yu_Pan_CV_ZH.pdf)
+[English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf)

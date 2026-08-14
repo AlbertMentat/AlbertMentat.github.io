@@ -60,4 +60,4 @@ author_profile: true
 - **2025.04--至今：** Research Intern，Shanghai AI/ML Group，[Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)。导师：[Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/)。
 - **2023.06--2026.06：** Research Assistant，上海交通大学[仿脑计算与机器智能研究中心（BCMI）](https://bcmi.sjtu.edu.cn/)。导师：[郑伟龙教授](https://weilongzheng.github.io/)。
 
-[中文简历（PDF）](/files/Jun-Yu_Pan_CV_ZH.pdf) &nbsp;·&nbsp; [English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf)
+[English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf)
