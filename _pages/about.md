@@ -2,58 +2,64 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Hi, I'm a junior student from [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). Currently I am a research assistant at [Center for Brain-like Computing and Machine Intelligence (BCMI)](https://bcmi.sjtu.edu.cn/), under the supervision of [Weilong Zheng](https://weilongzheng.github.io/). My reasearch interests in affective brain-computer interfaces. Now I focus on Emotion Recognition in a natural state and Large Brain Model. If you have any interest in it, please feel free to discuss with me.
+Hi, I'm **Jun-Yu Pan**. I will begin an M.Eng. in Electronic Information at the [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), in September 2026, advised by [Prof. Wei-Long Zheng](https://weilongzheng.github.io/). I received my B.Eng. from the same institute in June 2026, with an Outstanding Bachelor's Thesis (Top 1%).
 
-Interests
-======
-Affective Computing, Brain-Computer Interactions, Artificial Intelligence, Machine Learning
+I am currently a Research Intern at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/). My research focuses on **EEG foundation models**, **multimodal large language models (MLLMs)**, and their applications to neural understanding and affective computing.
 
 News
 ======
-- **2024.12** 1 paper is accepted by ICASSP 2025!
-- **2025.7** 1 paper is submitted to AAAI 2026.
+- **2026.08** Two papers on EEG foundation models are under review at NeurIPS 2026.
+- **2026.05** Our work on Generative Visual Grounding for EEG understanding is available on [arXiv](https://arxiv.org/abs/2605.18172) and is under review at ICLR.
+- **2026** M4Lego, our multimodal pretraining framework for gameplay emotion recognition, is under review at *IEEE Transactions on Affective Computing*.
+- **2025.04** I joined Microsoft Research Asia as a Research Intern.
+- **2025** Our cross-scenario EEG emotion-recognition paper was published at ICASSP 2025.
 
 Publications
 ======
-- **Jun-Yu Pan**, Hao-Long Yin, Wei-Long Zheng (2025). [Double Domain Converter Transformer For Improving EEG-Based Emotion Recognition from Video to Game Scenarios](https://ieeexplore.ieee.org/document/10889052). IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP).
+1. **Jun-Yu Pan**, Yansen Wang, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) *ICLR*, under review.
+2. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. "Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models." *NeurIPS 2026*, under review.
+3. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." *NeurIPS 2026*, under review.
+4. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." *IEEE Transactions on Affective Computing*, under review.
+5. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
 
-Projects
+&dagger; Equal contribution.
+
+[View all publications](/publications/)
+
+Selected Research Projects
 ======
-### Cross-Scenario Emotion Recognition 
-*Machine Learning and Affective Intelligence* 
-  
-June 2023 -- December 2024
-- Traditional emotion recognition approaches usually utilize videos as stimuli. However, watching videos lacks interaction. This project adopts games as emotion elicitation stimuli to explore the relationship of emotion recognition in different scenarios (game and video scenarios).
-- We also propose Double Domain Converter Transformer (DDCT) which achieves a remarkable prediction accuracy of cross-scenario emotion recognition.
-- One paper is accepted by ICASSP.
-- Explore the combination of screen recordings or videos and EEG in Multimodal Large Brain Model.
+### Generative Visual Grounding for Universal EEG Understanding
+*Microsoft Research Asia*
 
-### Explore the use of Contrastive Learning in Emotion Recognition 
-*Machine Learning and Affective Intelligence* 
+- Proposed Generative Visual Grounding (GVG), which uses an EEG-to-image generator to create instance-specific proxy images and maps EEG into discrete visual tokens for MLLMs.
+- Built GVG-X-Omni and GVG-Janus with image-only and Image+Text alignment. GVG-X-Omni matched a 1.7B-parameter text-aligned baseline while tuning 170M parameters on a frozen 7B backbone.
 
-July 2024 -- April 2025
-- The study follows the way of SimCLR.
-- Compared with traditional domain adaptation methods, self-supervised method based on contrastive pre-training show great potential in cross-scenario emotion recognition.
-- Compared with MAE pre-training, contrastive pre-training achieves better performance in cross-scenario emotion recognition and has similar performance in traditional video-stimuli emotion recognition.
+### Data Scaling and Curation for EEG Foundation Models
+*Microsoft Research Asia*
 
-### Multimodal Emotion Recognition
-*Machine Learning and Affective Intelligence*
+- Audited 151 pretraining configurations across LaBraM, CBraMod, and BIOT, covering 16 public datasets and 13 downstream tasks.
+- Developed codebook-coverage H-ordering and Pairwise Dataset Valuation (PDV); informed subsets outperformed full-pool pretraining by up to 5.53 percentage points in balanced accuracy.
 
-September 2024 -- July 2025
-- This study extended the previous work and proposed a Game-Induced Multimodal Affective Dataset.
-- Explore multimodal emotion recognition in the game scenarios.
+### Probe-Guided Multi-Dataset Fine-Tuning
+*Microsoft Research Asia*
 
-### EEG-based MLLM
-*Machine Learning and MLLM*
+- Developed POSE, a target-conditioned framework that selects and weights auxiliary EEG datasets using distributional-distance trajectories in a target-adapted feature space.
+- Evaluated POSE on 12 datasets and two EEG foundation models, improving average target-only fine-tuning by 3--4% while mitigating negative transfer.
 
-April 2025 -- Now
+### Cross-Scenario and Multimodal Emotion Recognition
+*BCMI, Shanghai Jiao Tong University*
 
-Internships
+- Proposed DDCT for EEG emotion recognition across video and gameplay scenarios; the work was published at ICASSP 2025.
+- Developed M4Lego, a multimodal pretraining framework integrating EEG and eye movements for emotion recognition during gameplay.
+
+Research Experience
 ======
-- **2023.06-Now** Research Assistant in [BCMI](https://bcmi.sjtu.edu.cn/). Advisor: [Weilong Zheng](https://weilongzheng.github.io/).
-- **2025.04-Now** Internship in Microsoft Research Asia (MSRA). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
+- **Apr. 2025--Present:** Research Intern, [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/). Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
+- **Jun. 2023--Jun. 2026:** Research Assistant, [BCMI](https://bcmi.sjtu.edu.cn/), Shanghai Jiao Tong University. Advisor: [Prof. Wei-Long Zheng](https://weilongzheng.github.io/).
+
+[Download my CV](/files/Jun-Yu_Pan_CV.pdf)
