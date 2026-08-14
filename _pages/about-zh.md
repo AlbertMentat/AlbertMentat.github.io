@@ -29,7 +29,7 @@ author_profile: true
 
 &dagger; 共同一作。
 
-精选科研项目
+项目
 ======
 ### 面向通用 EEG 理解的 Generative Visual Grounding
 *Microsoft Research Asia*

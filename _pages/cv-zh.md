@@ -33,7 +33,7 @@ author_profile: true
   2023 年 6 月--2026 年 6 月 | 导师：郑伟龙教授<br>
   研究基于 EEG 的情感计算，包括跨场景、对比学习和多模态情感识别。
 
-精选科研项目
+项目
 ======
 - **Generative Visual Grounding for Universal EEG Understanding：** 构建 GVG-X-Omni 与 GVG-Janus，将 EEG 转换为 MLLM 可处理的离散 visual token；在冻结 7B backbone、仅训练 170M 参数的情况下达到 1.7B 参数文本对齐 baseline 的性能。
 - **Controlled Audit of Data Scaling in EEG Foundation Models：** 在三个模型架构、16 个数据集和 13 个下游任务上完成 151 组实验；提出 H-ordering 与 Pairwise Dataset Valuation 数据选择方法。
