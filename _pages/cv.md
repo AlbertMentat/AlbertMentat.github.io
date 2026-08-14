@@ -21,7 +21,7 @@ Education
   Bachelor of Engineering, SJTU Paris Elite Institute of Technology<br>
   September 2022 -- June 2026<br>
   Weighted Average: 87.12/100 | GPA: 3.66/4.3 | Rank: 7/19<br>
-  Honors: Outstanding Bachelor's Thesis (Top 1%); Third-Class Scholarship (Top 15%); Academic Progress Scholarship
+  Honors: Outstanding Bachelor's Thesis of Shanghai Jiao Tong University (Top 1%); Third-Class Scholarship (Top 15%); Academic Progress Scholarship
 
 Research Experience
 ======

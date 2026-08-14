@@ -7,13 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I'm **Jun-Yu Pan**. I will begin an M.Eng. in Electronic Information at the [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), in September 2026, advised by [Prof. Wei-Long Zheng](https://weilongzheng.github.io/). I received my B.Eng. from the same institute in June 2026, with an Outstanding Bachelor's Thesis (Top 1%).
+Hi, I'm **Jun-Yu Pan**. I will begin an M.Eng. in Electronic Information at the [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), in September 2026, advised by [Prof. Wei-Long Zheng](https://weilongzheng.github.io/). I received my B.Eng. from the same institute in June 2026, with an Outstanding Bachelor's Thesis of Shanghai Jiao Tong University (Top 1%).
 
 I am currently a Research Intern at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/). My research focuses on **EEG foundation models**, **multimodal large language models (MLLMs)**, and their applications to neural understanding and affective computing.
 
 News
 ======
-- **2026.06** My bachelor's thesis was recognized as an Outstanding Bachelor's Thesis (Top 1%) by the SJTU Paris Elite Institute of Technology.
+- **2026.06** My bachelor's thesis was recognized as an Outstanding Bachelor's Thesis of Shanghai Jiao Tong University (Top 1%).
 - **2026.05** Our work on Generative Visual Grounding for EEG understanding became available on [arXiv](https://arxiv.org/abs/2605.18172).
 - **2026.05** We completed two studies on pretraining-data scaling and multi-dataset fine-tuning for EEG foundation models.
 - **2026** We completed M4Lego, a multimodal pretraining framework for gameplay emotion recognition.
