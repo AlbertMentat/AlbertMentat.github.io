@@ -26,7 +26,8 @@ author_profile: true
 科研经历
 ======
 - **Microsoft Research Asia (MSRA)**，Research Intern<br>
-  Shanghai AI/ML Group | 2025 年 4 月--至今 | 导师：Yansen Wang<br>
+  Shanghai AI/ML Group | Brain Project（Star Project）| 2025 年 4 月--至今<br>
+  Top 5% Intern | 导师：Yansen Wang<br>
   研究 data-centric EEG Foundation Model 与 EEG-MLLM alignment，涵盖预训练数据选择、多数据集微调和 Generative Visual Grounding。
 
 - **上海交通大学仿脑计算与机器智能研究中心（BCMI）**，Research Assistant<br>
@@ -35,9 +36,14 @@ author_profile: true
 
 项目
 ======
+*Microsoft Research Asia | Brain Project（Star Project）*
+
 - **Generative Visual Grounding for Universal EEG Understanding：** 构建 GVG-X-Omni 与 GVG-Janus，将 EEG 转换为 MLLM 可处理的离散 visual token；在冻结 7B backbone、仅训练 170M 参数的情况下达到 1.7B 参数文本对齐 baseline 的性能。
 - **Controlled Audit of Data Scaling in EEG Foundation Models：** 在三个模型架构、16 个数据集和 13 个下游任务上完成 151 组实验；提出 H-ordering 与 Pairwise Dataset Valuation 数据选择方法。
 - **Probe-Guided Multi-Dataset Fine-Tuning：** 提出 POSE，在 12 个 EEG 数据集上进行 compatibility-aware 辅助数据集选择与分阶段多数据集微调。
+
+*BCMI，上海交通大学*
+
 - **Cross-Scenario and Multimodal Emotion Recognition：** 构建 DDCT 与 M4Lego，分别用于跨场景和游戏过程中的多模态情感识别。
 
 论文

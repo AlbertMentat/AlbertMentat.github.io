@@ -28,7 +28,8 @@ Education
 Research Experience
 ======
 - **Microsoft Research Asia (MSRA)**, Research Intern<br>
-  Shanghai AI/ML Group | April 2025 -- Present | Advisor: Yansen Wang<br>
+  Shanghai AI/ML Group | Brain Project (Star Project) | April 2025 -- Present<br>
+  Top 5% Intern | Advisor: Yansen Wang<br>
   Research on data-centric EEG foundation models and EEG-MLLM alignment, spanning pretraining-data curation, multi-dataset fine-tuning, and generative visual grounding.
 
 - **BCMI, Shanghai Jiao Tong University**, Research Assistant<br>
@@ -37,9 +38,14 @@ Research Experience
 
 Selected Research Projects
 ======
+*Microsoft Research Asia | Brain Project (Star Project)*
+
 - **Generative Visual Grounding for Universal EEG Understanding:** Developed GVG-X-Omni and GVG-Janus to translate EEG into discrete visual tokens for MLLMs; matched a 1.7B-parameter text-aligned baseline while tuning 170M parameters on a frozen 7B backbone.
 - **Controlled Audit of Data Scaling in EEG Foundation Models:** Audited 151 configurations across three architectures, 16 datasets, and 13 downstream tasks; developed H-ordering and Pairwise Dataset Valuation for data selection.
 - **Probe-Guided Multi-Dataset Fine-Tuning:** Developed POSE for compatibility-aware auxiliary dataset selection and phased multi-dataset fine-tuning across 12 EEG datasets.
+
+*BCMI, Shanghai Jiao Tong University*
+
 - **Cross-Scenario and Multimodal Emotion Recognition:** Developed DDCT and M4Lego for cross-scenario and multimodal gameplay emotion recognition.
 
 Publications
