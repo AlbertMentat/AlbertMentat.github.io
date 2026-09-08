@@ -20,12 +20,12 @@ author_profile: true
 - **上海交通大学**，上海<br>
   工学学士，上海交通大学巴黎卓越工程师学院<br>
   2022 年 9 月--2026 年 6 月<br>
-  加权平均分：87.12/100 | GPA：3.66/4.3 | 排名：7/19<br>
+  学积分：87.12/100 | GPA：3.66/4.3 | 排名：7/19<br>
   荣誉：上海交通大学优异学士学位论文（Top 1%）；三等奖学金（Top 15%）；学业进步奖学金
 
 科研经历
 ======
-- **Microsoft Research Asia (MSRA)**，Research Intern<br>
+- **微软亚洲研究院（MSRA）**，Research Intern<br>
   Shanghai AI/ML Group | Brain Project（Star Project）| 2025 年 4 月--至今<br>
   Top 5% Intern | 导师：Yansen Wang<br>
   研究 data-centric EEG Foundation Model 与 EEG-MLLM alignment，涵盖预训练数据选择、多数据集微调和 Generative Visual Grounding。
@@ -36,15 +36,34 @@ author_profile: true
 
 项目
 ======
-*Microsoft Research Asia | Brain Project（Star Project）*
+*微软亚洲研究院 | Brain Project（Star Project）*
 
-- **Generative Visual Grounding for Universal EEG Understanding：** 构建 GVG-X-Omni 与 GVG-Janus，将 EEG 转换为 MLLM 可处理的离散 visual token；在冻结 7B backbone、仅训练 170M 参数的情况下达到 1.7B 参数文本对齐 baseline 的性能。
-- **Controlled Audit of Data Scaling in EEG Foundation Models：** 在三个模型架构、16 个数据集和 13 个下游任务上完成 151 组实验；提出 H-ordering 与 Pairwise Dataset Valuation 数据选择方法。
-- **Probe-Guided Multi-Dataset Fine-Tuning：** 提出 POSE，在 12 个 EEG 数据集上进行 compatibility-aware 辅助数据集选择与分阶段多数据集微调。
+- **Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs**
+  - 核心问题：研究如何利用 MLLM 提升 EEG 的理解与生成能力。
+  - 技术方法：提出 Generative Visual Grounding (GVG)，利用 EEG-to-image generator 生成样本级 proxy image，并将 EEG 映射为离散 visual token，使 MLLM 能够复用预训练视觉先验。
+  - 项目结果：构建 GVG-X-Omni 与 GVG-Janus；前者在冻结 7B backbone、仅训练 170M 参数时达到 1.7B 参数文本对齐 baseline 的性能，Image+Text alignment 进一步提升效果。
+
+- **Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models**
+  - 核心问题：研究基础脑电大模型预训练过程中的数据集干扰问题。
+  - 技术方法：在 LaBraM、CBraMod 和 BIOT 上开展 151 组受控预训练实验，覆盖 16 个公开数据集与 13 个下游任务，并提出 H-ordering 与 Pairwise Dataset Valuation (PDV)。
+  - 项目结果：所选数据子集相较全量预训练最高提升 5.53 个 balanced accuracy 百分点，表明预训练效果取决于数据集兼容性而非单纯的数据规模。
+
+- **Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models**
+  - 核心问题：研究基础脑电大模型下游微调过程中的数据集干扰问题。
+  - 技术方法：提出 POSE，在 target-adapted feature space 中依据 MMD 与 Fréchet distance trajectory 选择并加权辅助数据集，并采用 warm-up、joint-training 与 cool-down 训练流程。
+  - 项目结果：在 12 个数据集和两个 EEG Foundation Model 上较 target-only fine-tuning 平均提升 3--4%，并有效缓解 negative transfer。
 
 *BCMI，上海交通大学*
 
-- **Cross-Scenario and Multimodal Emotion Recognition：** 构建 DDCT 与 M4Lego，分别用于跨场景和游戏过程中的多模态情感识别。
+- **Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios**
+  - 核心问题：研究视频与游戏场景间 EEG 分布差异造成的跨场景情感识别性能下降问题。
+  - 技术方法：提出 Double Domain Converter Transformer (DDCT)，通过 adversarial learning 将双 domain converter 与 Transformer 结合，保留情感信息并缩小场景分布差异。
+  - 项目结果：在视频--游戏混合场景和视频到游戏跨场景任务上分别达到 84.95% 与 74.76% 的准确率，相关论文发表于 ICASSP 2025。
+
+- **M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay**
+  - 核心问题：研究如何融合 EEG 与眼动信号，提升自然交互式游戏场景中的多模态情感识别能力。
+  - 技术方法：构建 M4Lego，结合 multi-level masking、asymmetric conditional positional encoding 与 Lego-style modular fusion，学习模态内和跨模态表征。
+  - 项目结果：在三项游戏情感识别任务的 balanced accuracy、F1 score 与 accuracy 上整体优于九个强基线，主要提升超过 3 个百分点，最高超过 9 个百分点。
 
 论文
 ======
