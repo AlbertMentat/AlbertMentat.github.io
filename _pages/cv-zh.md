@@ -27,7 +27,7 @@ author_profile: true
 ======
 - **微软亚洲研究院（MSRA）**，Research Intern<br>
   Shanghai AI/ML Group | Brain Project（Star Project）| 2025 年 4 月--至今<br>
-  Top 5% Intern | 导师：Yansen Wang<br>
+  Top 5% Intern | 导师：王延森高级研究员<br>
   研究 data-centric EEG Foundation Model 与 EEG-MLLM alignment，涵盖预训练数据选择、多数据集微调和 Generative Visual Grounding。
 
 - **上海交通大学仿脑计算与机器智能研究中心（BCMI）**，Research Assistant<br>
