@@ -14,7 +14,7 @@ author_profile: true
 - **上海交通大学**，上海<br>
   电子信息硕士，上海交通大学巴黎卓越工程师学院<br>
   2026 年 9 月--2029 年 3 月（预计）<br>
-  导师：郑伟龙教授<br>
+  导师：郑伟龙副教授<br>
   研究方向：EEG Foundation Model、Multimodal Large Language Model (MLLM) 及 EEG Foundation Model 应用
 
 - **上海交通大学**，上海<br>
@@ -31,7 +31,7 @@ author_profile: true
   研究 data-centric EEG Foundation Model 与 EEG-MLLM alignment，涵盖预训练数据选择、多数据集微调和 Generative Visual Grounding。
 
 - **上海交通大学仿脑计算与机器智能研究中心（BCMI）**，Research Assistant<br>
-  2023 年 6 月--2026 年 6 月 | 导师：郑伟龙教授<br>
+  2023 年 6 月--2026 年 6 月 | 导师：郑伟龙副教授<br>
   研究基于 EEG 的情感计算，包括跨场景、对比学习和多模态情感识别。
 
 项目
