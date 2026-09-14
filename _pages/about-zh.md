@@ -12,6 +12,7 @@ author_profile: true
 
 最新动态
 ======
+- **2026.09** 完成 strategy-open BCI 研究，考察用户在连续 EEG 交互任务中自主形成并调整交互策略的过程。
 - **2026.06** 本科毕业论文获评上海交通大学优异学士学位论文（Top 1%）。
 - **2026.05** Generative Visual Grounding EEG 理解工作上线 [arXiv](https://arxiv.org/abs/2605.18172)。
 - **2026.05** 完成两项 EEG Foundation Model 研究，分别关注预训练数据选择与多数据集微调。
@@ -21,11 +22,12 @@ author_profile: true
 
 论文
 ======
-1. **Jun-Yu Pan**, Yansen Wang, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) Available on *arXiv*.
-2. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. "Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models." Under review, 2026.
-3. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." Under review, 2026.
-4. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." Under review, 2026.
-5. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
+1. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." Under review, 2026.
+2. **Jun-Yu Pan**, Yansen Wang, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) Available on *arXiv*.
+3. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. "Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models." Under review, 2026.
+4. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." Under review, 2026.
+5. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." Under review, 2026.
+6. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
 
 &dagger; 共同第一作者。
 
