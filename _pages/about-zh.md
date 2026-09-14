@@ -33,6 +33,12 @@ author_profile: true
 
 项目
 ======
+### Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction
+*Microsoft Research Asia · Brain Project（Star Project）*
+
+- 我们提出 strategy-open BCI：系统只规定任务目标，不预设 mental mapping，让用户自主形成并调整交互策略。
+- 在 26 名受试者参与的连续三车道 parkour 任务中，我们联合分析 EEG、自报告与模态相关生理特征。结果显示，用户策略高度异质且调整主要发生在交互早期；主观报告与生理特征部分一致，同时 movement direction 和 target lane 在不同视觉主题下仍可解码。
+
 ### 面向通用 EEG 理解的 Generative Visual Grounding
 *Microsoft Research Asia · Brain Project（Star Project）*
 

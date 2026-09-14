@@ -38,6 +38,12 @@ Publications
 
 Selected Research Projects
 ======
+### Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction
+*Microsoft Research Asia · Brain Project (Star Project)*
+
+- Introduced strategy-open BCI, which specifies the task goal while allowing users to form and revise their own mental strategies rather than follow a prescribed interaction mapping.
+- Conducted an offline study with 26 participants in a continuous three-lane parkour task using EEG and self-reports. Strategies were heterogeneous and revised mainly early; reported modalities partially matched physiological signatures, while movement direction and target lane remained decodable across visual themes.
+
 ### Generative Visual Grounding for Universal EEG Understanding
 *Microsoft Research Asia · Brain Project (Star Project)*
 

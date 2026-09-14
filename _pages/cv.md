@@ -40,6 +40,7 @@ Selected Research Projects
 ======
 *Microsoft Research Asia | Brain Project (Star Project)*
 
+- **Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction:** Introduced strategy-open BCI in an offline study of 26 participants; combined EEG, self-reports, physiological-signature analysis, and cross-theme decoding of movement direction and target lane.
 - **Generative Visual Grounding for Universal EEG Understanding:** Developed GVG-X-Omni and GVG-Janus to translate EEG into discrete visual tokens for MLLMs; matched a 1.7B-parameter text-aligned baseline while tuning 170M parameters on a frozen 7B backbone.
 - **Controlled Audit of Data Scaling in EEG Foundation Models:** Audited 151 configurations across three architectures, 16 datasets, and 13 downstream tasks; developed H-ordering and Pairwise Dataset Valuation for data selection.
 - **Probe-Guided Multi-Dataset Fine-Tuning:** Developed POSE for compatibility-aware auxiliary dataset selection and phased multi-dataset fine-tuning across 12 EEG datasets.

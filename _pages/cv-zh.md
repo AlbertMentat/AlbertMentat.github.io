@@ -38,6 +38,11 @@ author_profile: true
 ======
 *微软亚洲研究院 | Brain Project（Star Project）*
 
+- **Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction**
+  - 研究当用户不受预设 mental mapping 限制、自主形成交互策略时，EEG 是否仍能支持对任务目标的稳定解码。
+  - 对 26 名受试者开展连续三车道 parkour 任务的离线研究，联合分析 EEG、自报告与模态相关生理特征，并跨视觉主题解码 movement direction 和 target lane。
+  - 发现用户策略高度异质且调整集中在交互早期；主观报告与生理特征部分一致，同时两类任务表征在不同策略下仍可解码。
+
 - **Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs**
   - 研究如何利用 MLLM 提升 EEG 的理解与生成能力。
   - 提出 Generative Visual Grounding (GVG)，利用 EEG-to-image generator 生成样本级 proxy image，并将 EEG 映射为离散 visual token，使 MLLM 能够复用预训练视觉先验。
