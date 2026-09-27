@@ -28,7 +28,7 @@ author_profile: true
 - **微软亚洲研究院（MSRA）**，Research Intern<br>
   Shanghai AI/ML Group | Brain Project（Star Project）| 2025 年 4 月--至今<br>
   Top 5% Intern | 导师：王延森高级研究员<br>
-  研究 data-centric EEG Foundation Model 与 EEG-MLLM alignment，涵盖预训练数据选择、多数据集微调和 Generative Visual Grounding。
+  研究 EEG 基础模型与 EEG-MLLM 对齐，涵盖多尺度预测式预训练、数据选择、多数据集微调和生成式视觉对齐。完成四篇 ICLR 2027 投稿（其中三篇为第一作者）及一篇共同一作 CHI 2027 投稿。
 
 - **上海交通大学仿脑计算与机器智能研究中心（BCMI）**，Research Assistant<br>
   2023 年 6 月--2026 年 6 月 | 导师：郑伟龙副教授<br>
@@ -38,6 +38,11 @@ author_profile: true
 ======
 *微软亚洲研究院 | Brain Project（Star Project）*
 
+- **From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer**
+  - 研究如何通过预测不同时间尺度的未来状态，学习 EEG 瞬态事件与持续节律的动态变化，提升跨任务迁移能力。
+  - 提出 MSDE，以因果编码器和时间间隔条件化的共享转移算子，从同一 EEG 状态联合预测微观与宏观尺度的未来教师状态。
+  - MSDE-Full 与 MSDE-10% 在 20 项 OmniEEG-Bench 任务中取得八个模型中的前两位平均排名；后者仅用 5.0M 参数编码器和 2,115 小时 EEG 预训练。
+
 - **Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction**
   - 研究当用户不受预设 mental mapping 限制、自主形成交互策略时，EEG 是否仍能支持对任务目标的稳定解码。
   - 对 26 名受试者开展连续三车道 parkour 任务的离线研究，联合分析 EEG、自报告与模态相关生理特征，并跨视觉主题解码 movement direction 和 target lane。
@@ -45,18 +50,18 @@ author_profile: true
 
 - **Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs**
   - 研究如何利用 MLLM 提升 EEG 的理解与生成能力。
-  - 提出 Generative Visual Grounding (GVG)，利用 EEG-to-image generator 生成样本级 proxy image，并将 EEG 映射为离散 visual token，使 MLLM 能够复用预训练视觉先验。
-  - 构建 GVG-X-Omni 与 GVG-Janus；前者在冻结 7B backbone、仅训练 170M 参数时达到 1.7B 参数文本对齐 baseline 的性能，Image+Text alignment 进一步提升效果。
+  - 提出 GVG，利用 EEG-to-image 生成器构建样本级代理图像，通过原生视觉 token 预测及 EEG—图像—文本三模态对齐复用 MLLM 的视觉先验。
+  - GVG-Janus 在六项任务上的平均 balanced accuracy 从文本对齐的 45.89% 提升至图像对齐的 53.46%；三模态对齐结合全参数适配达到 60.05%。
 
-- **Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models**
-  - 研究基础脑电大模型预训练过程中的数据集干扰问题。
-  - 在 LaBraM、CBraMod 和 BIOT 上开展 151 组受控预训练实验，覆盖 16 个公开数据集与 13 个下游任务，并提出 H-ordering 与 Pairwise Dataset Valuation (PDV)。
-  - 所选数据子集相较全量预训练最高提升 5.53 个 balanced accuracy 百分点，表明预训练效果取决于数据集兼容性而非单纯的数据规模。
+- **Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models**
+  - 研究基础脑电大模型预训练中的数据集干扰，以及数据来源组合、规模和模型架构对迁移性能的影响。
+  - 在 LaBraM、CBraMod 和 BIOT 上评估 202 组配置，覆盖 16 个候选数据集与 13 个下游任务，比较 Progressive、PDV、Size 和 Coverage 四种数据排序方法。
+  - 121 组配置以更少训练窗口优于全量预训练，最佳子集平均 balanced accuracy 最高提升 5.58 个百分点；数据来源的效用随模型架构而变化。
 
 - **Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models**
   - 研究基础脑电大模型下游微调过程中的数据集干扰问题。
-  - 提出 POSE，在 target-adapted feature space 中依据 MMD 与 Fréchet distance trajectory 选择并加权辅助数据集，并采用 warm-up、joint-training 与 cool-down 训练流程。
-  - 在 12 个数据集和两个 EEG Foundation Model 上较 target-only fine-tuning 平均提升 3--4%，并有效缓解 negative transfer。
+  - 提出 POSE，依据目标适配期间 MMD 与 Fréchet 距离的水平和变化趋势选择、加权辅助数据集，再分阶段引入与减少辅助训练。
+  - 在 12 个数据集上评估，11 项分类任务的平均 balanced accuracy 较仅用目标数据微调提升 1.5（LaBraM）和 2.2（CBraMod）个百分点。
 
 *BCMI，上海交通大学*
 
@@ -72,12 +77,13 @@ author_profile: true
 
 论文
 ======
-1. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*, under review.
-2. **Jun-Yu Pan**, Yansen Wang, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) *International Conference on Learning Representations (ICLR)*, under review.
-3. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Wei-Long Zheng, and Dongsheng Li. "Which Data, Not How Much: A Controlled Audit of Data Scaling in EEG Foundation Models." *Advances in Neural Information Processing Systems (NeurIPS 2026)*, under review.
-4. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." *Advances in Neural Information Processing Systems (NeurIPS 2026)*, under review.
-5. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." *IEEE Transactions on Affective Computing*, under review.
-6. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
+1. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Dongsheng Li, and Wei-Long Zheng. "From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer." *International Conference on Learning Representations (ICLR 2027)*, under review.
+2. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*, under review.
+3. **Jun-Yu Pan**, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) *International Conference on Learning Representations (ICLR 2027)*, under review.
+4. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. "Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
+5. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
+6. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." *IEEE Transactions on Affective Computing*, under review.
+7. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
 
 &dagger; 共同一作。
 
