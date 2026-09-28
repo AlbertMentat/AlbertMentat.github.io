@@ -35,6 +35,13 @@ author_profile: true
 
 项目
 ======
+### Large-Scale Pretraining and Model Scaling for EEG Foundation Models
+*微软亚洲研究院 · Brain Project（Star Project）*
+
+- 这项工作关注大规模 EEG 预训练：增加数据量和模型容量能带来怎样的跨任务迁移收益，以及如何有效扩展数据与模型。
+- 我独立负责数据整理、质量控制、预训练和下游评测，将语料扩展至 515 个数据来源、约 8 万小时窗口化 EEG，开展 25k、49k、79k 三档语料实验，并构建从 Base 到 Giant、编码器参数量覆盖 5.8M 至 1.97B 的系列模型。
+- 在完整覆盖 23 项任务的对比中，49k Large 的全参数微调与线性探测平均 balanced accuracy 分别达到 59.05% 和 54.09%；两种设置下的平均任务排名均为 12 个本地参评 checkpoint 中的第 1，对比包含复现的 LaBraM、CBraMod 和 REVE 基线。
+
 ### From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer
 *微软亚洲研究院 · Brain Project（Star Project）*
 

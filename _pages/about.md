@@ -40,6 +40,13 @@ Publications
 
 Selected Research Projects
 ======
+### Large-Scale Pretraining and Model Scaling for EEG Foundation Models
+*Microsoft Research Asia · Brain Project (Star Project)*
+
+- Investigated how increasing pretraining-data volume and model capacity affects transfer across EEG tasks, studying data and model scaling together.
+- Independently handled the full workflow, from data curation and quality control to pretraining and downstream evaluation. Expanded the corpus to 515 sources and approximately 80,000 hours of windowed EEG; conducted experiments across the 25k, 49k, and 79k corpus series and Base-to-Giant models spanning 5.8M to 1.97B encoder parameters.
+- In the complete 23-task comparison, 49k Large achieved 59.05% mean balanced accuracy with full fine-tuning and 54.09% with linear probing. It ranked first by average task rank in both settings among 12 evaluated local checkpoints, including reproduced LaBraM, CBraMod, and REVE baselines.
+
 ### From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer
 *Microsoft Research Asia · Brain Project (Star Project)*
 

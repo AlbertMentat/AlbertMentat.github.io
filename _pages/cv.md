@@ -30,7 +30,7 @@ Research Experience
 - **Microsoft Research Asia (MSRA)**, Research Intern<br>
   Shanghai AI/ML Group | Brain Project (Star Project) | April 2025 -- Present<br>
   Top 5% Intern | Advisor: Yansen Wang<br>
-  Research on EEG foundation models and EEG-MLLM alignment, spanning multi-scale predictive pretraining, data selection, multi-dataset fine-tuning, and generative visual grounding. Completed four ICLR 2027 submissions (three as first author) and one co-first-author CHI 2027 submission.
+  Research on EEG foundation models and EEG-MLLM alignment, spanning large-scale pretraining, model scaling, predictive learning, data selection, multi-dataset fine-tuning, and visual grounding. Completed four ICLR 2027 submissions (three as first author) and one co-first-author CHI 2027 submission.
 
 - **BCMI, Shanghai Jiao Tong University**, Research Assistant<br>
   June 2023 -- June 2026 | Advisor: Prof. Wei-Long Zheng<br>
@@ -40,6 +40,7 @@ Selected Research Projects
 ======
 *Microsoft Research Asia | Brain Project (Star Project)*
 
+- **Large-Scale Pretraining and Model Scaling for EEG Foundation Models:** Independently handled data curation, quality control, pretraining, and evaluation to study data and model scaling. Expanded the corpus to 515 sources and approximately 80,000 hours of windowed EEG, with model variants spanning 5.8M to 1.97B encoder parameters. On 23 tasks, 49k Large achieved 59.05% mean balanced accuracy with full fine-tuning and 54.09% with linear probing, ranking first by average task rank in both settings among 12 evaluated local checkpoints.
 - **From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer:** Developed MSDE to jointly predict micro- and macro-scale future teacher states. MSDE-Full and MSDE-10% achieved the two best average fine-tuning ranks across 20 OmniEEG-Bench tasks among eight models; MSDE-10% uses a 5.0M-parameter encoder pretrained on 2,115 hours of EEG.
 - **Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction:** Introduced strategy-open BCI in an offline study of 26 participants; combined EEG, self-reports, physiological-signature analysis, and cross-theme decoding of movement direction and target lane.
 - **Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs:** Used EEG-to-image proxy generation and visual-token prediction to align EEG with MLLMs. GVG-Janus improved mean balanced accuracy across six tasks from 45.89% (text-only) to 53.46% (image-only); trimodal alignment with full adaptation reached 60.05%.
