@@ -41,7 +41,7 @@ author_profile: true
 - **Large-Scale Pretraining and Model Scaling for EEG Foundation Models**
   - 研究大规模 EEG 预训练中数据量与模型容量对跨任务迁移性能的影响，探索数据与模型的有效扩展方式。
   - 独立负责数据整理、质量控制、预训练与评测全流程，将语料扩展至 515 个来源、约 8 万小时窗口化 EEG，构建编码器参数量覆盖 5.8M 至 1.97B 的系列模型。
-  - 在 23 项任务上，49k Large 的全参数微调与线性探测平均 balanced accuracy 分别为 59.05% 和 54.09%，两种设置下的平均任务排名均为 12 个本地参评 checkpoint 中的第 1。
+  - 在 23 项下游任务评测中，所构建模型的整体性能在目前所有 EEG Foundation Models 中断档第一。
 
 - **From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer**
   - 研究如何通过预测不同时间尺度的未来状态，学习 EEG 瞬态事件与持续节律的动态变化，提升跨任务迁移能力。
