@@ -11,7 +11,7 @@ redirect_from:
 
 Hi, I'm **Jun-Yu Pan**. I will begin an M.Eng. in Electronic Information at the [SJTU Paris Elite Institute of Technology](https://speit.sjtu.edu.cn/), [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/), in September 2026, advised by [Prof. Wei-Long Zheng](https://weilongzheng.github.io/). I received my B.Eng. from the same institute in June 2026, with an Outstanding Bachelor's Thesis of Shanghai Jiao Tong University (Top 1%).
 
-I am currently a Research Intern with the Brain Project (Star Project) in the Shanghai AI/ML Group at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/), and was recognized as a **Top 5% Intern**. My research focuses on **EEG foundation models**, **multimodal large language models (MLLMs)**, and their applications to neural understanding and affective computing.
+I am currently a Research Intern in the Shanghai AI/ML Group at [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/), and was recognized as a **Top 5% Intern**. My research focuses on **EEG foundation models**, **multimodal large language models (MLLMs)**, and their applications to neural understanding and affective computing.
 
 News
 ======
@@ -43,7 +43,7 @@ Publications
 Selected Research Projects
 ======
 ### LaBraM at Scale: Scaling Data and Models for EEG Pretraining
-*Microsoft Research Asia · Brain Project (Star Project) · First author*
+*Microsoft Research Asia · Shanghai AI/ML Group · First author*
 
 [Paper](https://arxiv.org/abs/2611.03165) · [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
 
@@ -52,34 +52,34 @@ Selected Research Projects
 - In the report's 23-task comparison, Atom-L* reached 59.05% mean balanced accuracy under Full-FT, 3.61 percentage points above the strongest baseline; Quark-G led LP at 54.33%, a 1.24-point margin. Both also led average task rank in their respective settings.
 
 ### From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer
-*Microsoft Research Asia · Brain Project (Star Project)*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - Studied how predicting future EEG states at different time scales can capture both transient events and sustained rhythms for transfer across tasks.
 - Developed MSDE, which jointly predicts micro- and macro-scale future teacher states using a causal encoder and a shared, elapsed-time-conditioned transition operator.
 - MSDE-Full and MSDE-10% achieved the two best average fine-tuning ranks across 20 OmniEEG-Bench tasks among eight evaluated models. MSDE-10% uses a 5.0M-parameter encoder pretrained on 2,115 hours of EEG; joint-scale supervision outperformed both single-scale variants on 18 of 20 tasks.
 
 ### Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction
-*Microsoft Research Asia · Brain Project (Star Project)*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - Introduced strategy-open BCI, which specifies the task goal while allowing users to form and revise their own mental strategies rather than follow a prescribed interaction mapping.
 - Conducted an offline study with 26 participants in a continuous three-lane parkour task using EEG and self-reports. Strategies were heterogeneous and revised mainly early; reported modalities partially matched physiological signatures, while movement direction and target lane remained decodable across visual themes.
 
 ### Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs
-*Microsoft Research Asia · Brain Project (Star Project)*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - Studied how MLLMs can use their pretrained visual knowledge to improve EEG understanding and generation, including tasks without visual stimuli.
 - Proposed GVG, using an EEG-to-image generator to create sample-specific proxy images, predict native visual tokens, and align EEG, images, and text.
 - On six tasks, GVG-Janus improved mean balanced accuracy from 45.89% with text-only alignment to 53.46% with image-only alignment; trimodal alignment with full adaptation reached 60.05%. GVG-X-Omni approached NeuroLM-XL's average performance while tuning 170M parameters over a frozen 7B backbone.
 
 ### Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models
-*Microsoft Research Asia · Brain Project (Star Project)*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - Studied interference among EEG pretraining datasets and how source composition, data volume, and model architecture affect downstream transfer.
 - Audited 202 configurations across LaBraM, CBraMod, and BIOT, covering 16 candidate datasets and 13 downstream tasks; compared Progressive, Pairwise Dataset Valuation (PDV), Size, and Coverage rankings.
 - Found 121 configurations that used fewer windows yet outperformed full-pool pretraining. The best subsets improved mean balanced accuracy by up to 5.58 percentage points; all 39 architecture-task combinations had a smaller, higher-scoring configuration.
 
 ### Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models
-*Microsoft Research Asia · Brain Project (Star Project)*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - Studied interference during downstream multi-dataset fine-tuning and when auxiliary EEG datasets help or hurt a target task.
 - Developed POSE, which uses MMD and Fréchet-distance levels and trends during target adaptation to select and weight auxiliary datasets, then schedules their participation through warm-up, joint training, and cool-down.
@@ -93,7 +93,7 @@ Selected Research Projects
 
 Research Experience
 ======
-- **Apr. 2025--Present:** Research Intern, Brain Project (Star Project), Shanghai AI/ML Group, [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/); **Top 5% Intern**. Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
+- **Apr. 2025--Present:** Research Intern, Shanghai AI/ML Group, [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/); **Top 5% Intern**. Advisor: [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/).
 - **Jun. 2023--Jun. 2026:** Research Assistant, [BCMI](https://bcmi.sjtu.edu.cn/), Shanghai Jiao Tong University. Advisor: [Prof. Wei-Long Zheng](https://weilongzheng.github.io/).
 
 [English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf)

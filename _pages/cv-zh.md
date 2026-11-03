@@ -26,7 +26,7 @@ author_profile: true
 科研经历
 ======
 - **微软亚洲研究院（MSRA）**，Research Intern<br>
-  Shanghai AI/ML Group | Brain Project（Star Project）| 2025 年 4 月--至今<br>
+  Shanghai AI/ML Group | 2025 年 4 月--至今<br>
   Top 5% Intern | 导师：王延森高级研究员<br>
   研究 EEG 基础模型与 EEG-MLLM 对齐，涵盖大规模预训练、模型扩展、多尺度预测学习、数据选择、多数据集微调和生成式视觉对齐。第一作者发布 LaBraM at Scale 技术报告并开放代码与权重；另完成四篇 ICLR 2027 投稿（三篇第一作者）及一篇共同一作 CHI 2027 投稿。
 
@@ -36,7 +36,7 @@ author_profile: true
 
 项目
 ======
-*微软亚洲研究院 | Brain Project（Star Project）*
+*微软亚洲研究院 | Shanghai AI/ML Group*
 
 - **[LaBraM at Scale: Scaling Data and Models for EEG Pretraining](https://albertmentat.github.io/LaBraM-at-Scale/)**
   - 研究 EEG 预训练的数据与模型扩展，比较 Full-FT、LP 及共享 Qwen3 分类。

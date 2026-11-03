@@ -6,7 +6,7 @@ author_profile: true
 
 [English](/) &nbsp;·&nbsp; **中文**
 
-你好，我是**潘俊宇（Jun-Yu Pan）**。目前在 [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) Shanghai AI/ML Group 的 Brain Project（Star Project）担任 Research Intern，并获评 **Top 5% Intern**，导师为 [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/)。我主要关注 **EEG Foundation Model**、**Multimodal Large Language Model (MLLM)** 以及 EEG Foundation Model 的应用。
+你好，我是**潘俊宇（Jun-Yu Pan）**。目前在 [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) Shanghai AI/ML Group 担任 Research Intern，并获评 **Top 5% Intern**，导师为 [Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/)。我主要关注 **EEG Foundation Model**、**Multimodal Large Language Model (MLLM)** 以及 EEG Foundation Model 的应用。
 
 我于 2026 年 6 月本科毕业于[上海交通大学巴黎卓越工程师学院](https://speit.sjtu.edu.cn/)，毕业论文获评上海交通大学优异学士学位论文（Top 1%）。2026 年 9 月起，我将在同一学院攻读电子信息硕士学位，师从[郑伟龙教授](https://weilongzheng.github.io/)，预计于 2029 年 3 月毕业。
 
@@ -38,7 +38,7 @@ author_profile: true
 项目
 ======
 ### LaBraM at Scale: Scaling Data and Models for EEG Pretraining
-*微软亚洲研究院 · Brain Project（Star Project） · 第一作者*
+*微软亚洲研究院 · Shanghai AI/ML Group · 第一作者*
 
 [Paper](https://arxiv.org/abs/2611.03165) · [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
 
@@ -47,34 +47,34 @@ author_profile: true
 - 在报告的 23 项任务对比中，Atom-L* 的 Full-FT 平均 balanced accuracy 达 59.05%，较最强基线提高 3.61 个百分点；Quark-G 的 LP 达 54.33%，提高 1.24 个百分点。两者在对应设置下的平均任务排名也领先所比较基线。
 
 ### From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer
-*微软亚洲研究院 · Brain Project（Star Project）*
+*微软亚洲研究院 · Shanghai AI/ML Group*
 
 - EEG 中既有短暂事件，也有持续节律。这项工作研究能否通过预测不同时间尺度的未来状态，让预训练模型学到更有利于迁移的动态特征。
 - 我们提出 MSDE，用因果编码器表示已观测的 EEG，再通过一个以时间间隔为条件的共享转移算子，联合预测微观与宏观尺度的未来教师状态。
 - 在 20 项 OmniEEG-Bench 任务上，MSDE-Full 与 MSDE-10% 在八个模型中取得前两位平均微调排名。MSDE-10% 的编码器仅有 5.0M 参数，使用 2,115 小时 EEG 预训练；联合尺度监督在 18 项任务上优于两种单尺度版本。
 
 ### Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction
-*Microsoft Research Asia · Brain Project（Star Project）*
+*Microsoft Research Asia · Shanghai AI/ML Group*
 
 - 我们提出 strategy-open BCI：系统只规定任务目标，不预设 mental mapping，让用户自主形成并调整交互策略。
 - 在 26 名受试者参与的连续三车道 parkour 任务中，我们联合分析 EEG、自报告与模态相关生理特征。结果显示，用户策略高度异质且调整主要发生在交互早期；主观报告与生理特征部分一致，同时 movement direction 和 target lane 在不同视觉主题下仍可解码。
 
 ### Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs
-*微软亚洲研究院 · Brain Project（Star Project）*
+*微软亚洲研究院 · Shanghai AI/ML Group*
 
 - 这项工作研究如何利用 MLLM 已有的视觉知识提高 EEG 的理解与生成能力，包括没有视觉刺激的 EEG 任务。
 - 我们提出 GVG，先由 EEG-to-image 生成器为每个样本生成代理图像，再预测模型原生的视觉 token，并进行 EEG、图像与文本的三模态对齐。
 - 在六项任务上，GVG-Janus 的平均 balanced accuracy 从文本对齐的 45.89% 提升到图像对齐的 53.46%，三模态对齐结合全参数适配达到 60.05%。GVG-X-Omni 冻结 7B 主干、仅训练 170M 参数，平均表现接近 NeuroLM-XL。
 
 ### Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models
-*微软亚洲研究院 · Brain Project（Star Project）*
+*微软亚洲研究院 · Shanghai AI/ML Group*
 
 - 预训练时加入更多 EEG 数据，并不总能带来更好的迁移效果。这项工作考察不同数据集之间的干扰，以及数据来源、规模和模型架构各自的影响。
 - 我们在 LaBraM、CBraMod 和 BIOT 上评估了 202 组配置，覆盖 16 个候选数据集与 13 个下游任务，并比较 Progressive、Pairwise Dataset Valuation (PDV)、Size 和 Coverage 四种排序方法。
 - 其中 121 组配置使用更少的训练窗口，却优于全量预训练；最佳子集的平均 balanced accuracy 最高提升 5.58 个百分点。全部 39 个模型—任务组合中，都能找到更小且表现更好的数据配置。
 
 ### Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models
-*微软亚洲研究院 · Brain Project（Star Project）*
+*微软亚洲研究院 · Shanghai AI/ML Group*
 
 - 这项工作关注下游微调中的数据集干扰：哪些辅助数据能帮助目标任务，以及如何减少负迁移。
 - 我们提出 POSE，根据目标适配期间 MMD 与 Fréchet 距离的水平和变化趋势选择、加权辅助数据，再通过 warm-up、joint-training 和 cool-down 控制辅助数据的参与。
@@ -88,7 +88,7 @@ author_profile: true
 
 科研经历
 ======
-- **2025.04--至今：** Research Intern，[Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) Shanghai AI/ML Group，Brain Project（Star Project）；**Top 5% Intern**。导师：[Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/)。
+- **2025.04--至今：** Research Intern，[Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) Shanghai AI/ML Group；**Top 5% Intern**。导师：[Yansen Wang](https://www.microsoft.com/en-us/research/people/yansenwang/)。
 - **2023.06--2026.06：** Research Assistant，上海交通大学[仿脑计算与机器智能研究中心（BCMI）](https://bcmi.sjtu.edu.cn/)。导师：[郑伟龙教授](https://weilongzheng.github.io/)。
 
 [English CV (PDF)](/files/Jun-Yu_Pan_CV.pdf)

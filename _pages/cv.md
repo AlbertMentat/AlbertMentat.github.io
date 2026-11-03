@@ -28,7 +28,7 @@ Education
 Research Experience
 ======
 - **Microsoft Research Asia (MSRA)**, Research Intern<br>
-  Shanghai AI/ML Group | Brain Project (Star Project) | April 2025 -- Present<br>
+  Shanghai AI/ML Group | April 2025 -- Present<br>
   Top 5% Intern | Advisor: Yansen Wang<br>
   Research on EEG foundation models and EEG-MLLM alignment, spanning large-scale pretraining, model scaling, predictive learning, data selection, multi-dataset fine-tuning, and visual grounding. Released LaBraM at Scale as first author with open-source code and weights; completed four ICLR 2027 submissions (three as first author) and one co-first-author CHI 2027 submission.
 
@@ -38,7 +38,7 @@ Research Experience
 
 Selected Research Projects
 ======
-*Microsoft Research Asia | Brain Project (Star Project)*
+*Microsoft Research Asia | Shanghai AI/ML Group*
 
 - **[LaBraM at Scale: Scaling Data and Models for EEG Pretraining](https://albertmentat.github.io/LaBraM-at-Scale/):** Independently handled data curation, pretraining, and evaluation across three EEG corpora (25,067–79,910 hours) and ten encoders (5.8M–1.97B parameters). In the report's 23-task comparison, Atom-L* reached 59.05% mean BAcc under Full-FT (+3.61 points), and Quark-G reached 54.33% under LP (+1.24 points), both leading the compared baselines. [Paper](https://arxiv.org/abs/2611.03165) · [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
 - **From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer:** Developed MSDE to jointly predict micro- and macro-scale future teacher states. MSDE-Full and MSDE-10% achieved the two best average fine-tuning ranks across 20 OmniEEG-Bench tasks among eight models; MSDE-10% uses a 5.0M-parameter encoder pretrained on 2,115 hours of EEG.
