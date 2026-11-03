@@ -12,6 +12,7 @@ author_profile: true
 
 最新动态
 ======
+- **2026.11** 发布第一作者技术报告 [LaBraM at Scale](https://arxiv.org/abs/2611.03165)，并开放[代码](https://github.com/AlbertMentat/LaBraM-at-Scale)、[模型权重](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale)与[项目页](https://albertmentat.github.io/LaBraM-at-Scale/)。
 - **2026.09** 完成多尺度未来状态预训练方法 MSDE，并更新预训练数据选择、多数据集微调与生成式视觉对齐三项工作。
 - **2026.09** 完成 strategy-open BCI 研究，考察用户在连续 EEG 交互任务中自主形成并调整交互策略的过程。
 - **2026.06** 本科毕业论文获评上海交通大学优异学士学位论文（Top 1%）。
@@ -23,24 +24,27 @@ author_profile: true
 
 论文
 ======
-1. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Dongsheng Li, and Wei-Long Zheng. "From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer." Under review, 2026.
-2. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." Under review, 2026.
-3. **Jun-Yu Pan**, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) Available on *arXiv*.
-4. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. "Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models." Under review, 2026.
-5. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." Under review, 2026.
-6. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." Under review, 2026.
-7. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
+1. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Dongsheng Li, Wei-Long Zheng, and Yansen Wang. ["LaBraM at Scale: Scaling Data and Models for EEG Pretraining."](https://arxiv.org/abs/2611.03165) *arXiv preprint*, 2026. [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
+2. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Dongsheng Li, and Wei-Long Zheng. "From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer." Under review, 2026.
+3. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." Under review, 2026.
+4. **Jun-Yu Pan**, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) Available on *arXiv*.
+5. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. "Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models." Under review, 2026.
+6. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." Under review, 2026.
+7. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." Under review, 2026.
+8. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
 
 &dagger; 共同第一作者。
 
 项目
 ======
-### Large-Scale Pretraining and Model Scaling for EEG Foundation Models
-*微软亚洲研究院 · Brain Project（Star Project）*
+### LaBraM at Scale: Scaling Data and Models for EEG Pretraining
+*微软亚洲研究院 · Brain Project（Star Project） · 第一作者*
 
-- 这项工作关注大规模 EEG 预训练：增加数据量和模型容量能带来怎样的跨任务迁移收益，以及如何有效扩展数据与模型。
-- 我独立负责数据整理、质量控制、预训练和下游评测，将语料扩展至 515 个数据来源、约 8 万小时窗口化 EEG，开展 25k、49k、79k 三档语料实验，并构建从 Base 到 Giant、编码器参数量覆盖 5.8M 至 1.97B 的系列模型。
-- 在 23 项下游任务评测中，所构建模型的整体性能在目前所有 EEG Foundation Models 中断档第一。
+[Paper](https://arxiv.org/abs/2611.03165) · [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
+
+- 研究扩大 EEG 预训练数据与模型容量对迁移性能的影响，并比较全参数微调（Full-FT）、线性探测（LP）和共享 Qwen3 分类三种适配方式。
+- 我独立负责数据整理、预训练与下游评测，构建 Quark、Atom、Molecule 三档语料，分别包含 25,067、49,628 和 79,910 小时 EEG；训练 10 个编码器，参数量覆盖 5.8M–1.97B，并开放代码、权重与训练评测说明。
+- 在报告的 23 项任务对比中，Atom-L* 的 Full-FT 平均 balanced accuracy 达 59.05%，较最强基线提高 3.61 个百分点；Quark-G 的 LP 达 54.33%，提高 1.24 个百分点。两者在对应设置下的平均任务排名也领先所比较基线。
 
 ### From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer
 *微软亚洲研究院 · Brain Project（Star Project）*
