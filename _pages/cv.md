@@ -30,7 +30,7 @@ Research Experience
 - **Microsoft Research Asia (MSRA)**, Research Intern<br>
   Shanghai AI/ML Group | Brain Project (Star Project) | April 2025 -- Present<br>
   Top 5% Intern | Advisor: Yansen Wang<br>
-  Research on EEG foundation models and EEG-MLLM alignment, spanning large-scale pretraining, model scaling, predictive learning, data selection, multi-dataset fine-tuning, and visual grounding. Completed four ICLR 2027 submissions (three as first author) and one co-first-author CHI 2027 submission.
+  Research on EEG foundation models and EEG-MLLM alignment, spanning large-scale pretraining, model scaling, predictive learning, data selection, multi-dataset fine-tuning, and visual grounding. Released LaBraM at Scale as first author with open-source code and weights; completed four ICLR 2027 submissions (three as first author) and one co-first-author CHI 2027 submission.
 
 - **BCMI, Shanghai Jiao Tong University**, Research Assistant<br>
   June 2023 -- June 2026 | Advisor: Prof. Wei-Long Zheng<br>
@@ -40,7 +40,7 @@ Selected Research Projects
 ======
 *Microsoft Research Asia | Brain Project (Star Project)*
 
-- **Large-Scale Pretraining and Model Scaling for EEG Foundation Models:** Independently handled data curation, quality control, pretraining, and evaluation to study data and model scaling. Expanded the corpus to 515 sources and approximately 80,000 hours of windowed EEG, with model variants spanning 5.8M to 1.97B encoder parameters. Across 23 downstream tasks, the developed models currently rank first by a substantial margin among all EEG foundation models.
+- **[LaBraM at Scale: Scaling Data and Models for EEG Pretraining](https://albertmentat.github.io/LaBraM-at-Scale/):** Independently handled data curation, pretraining, and evaluation across three EEG corpora (25,067–79,910 hours) and ten encoders (5.8M–1.97B parameters). In the report's 23-task comparison, Atom-L* reached 59.05% mean BAcc under Full-FT (+3.61 points), and Quark-G reached 54.33% under LP (+1.24 points), both leading the compared baselines. [Paper](https://arxiv.org/abs/2611.03165) · [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
 - **From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer:** Developed MSDE to jointly predict micro- and macro-scale future teacher states. MSDE-Full and MSDE-10% achieved the two best average fine-tuning ranks across 20 OmniEEG-Bench tasks among eight models; MSDE-10% uses a 5.0M-parameter encoder pretrained on 2,115 hours of EEG.
 - **Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction:** Introduced strategy-open BCI in an offline study of 26 participants; combined EEG, self-reports, physiological-signature analysis, and cross-theme decoding of movement direction and target lane.
 - **Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs:** Used EEG-to-image proxy generation and visual-token prediction to align EEG with MLLMs. GVG-Janus improved mean balanced accuracy across six tasks from 45.89% (text-only) to 53.46% (image-only); trimodal alignment with full adaptation reached 60.05%.
@@ -53,13 +53,14 @@ Selected Research Projects
 
 Publications
 ======
-1. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Dongsheng Li, and Wei-Long Zheng. "From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer." *International Conference on Learning Representations (ICLR 2027)*, under review.
-2. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*, under review.
-3. **Jun-Yu Pan**, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) *International Conference on Learning Representations (ICLR 2027)*, under review.
-4. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. "Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
-5. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
-6. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." *IEEE Transactions on Affective Computing*, under review.
-7. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
+1. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Dongsheng Li, Wei-Long Zheng, and Yansen Wang. ["LaBraM at Scale: Scaling Data and Models for EEG Pretraining."](https://arxiv.org/abs/2611.03165) *arXiv preprint*, 2026. [Code](https://github.com/AlbertMentat/LaBraM-at-Scale) · [Weights](https://huggingface.co/Pan-Junyu/LaBraM-at-Scale) · [Project page](https://albertmentat.github.io/LaBraM-at-Scale/)
+2. **Jun-Yu Pan**, Ruicheng Yin, Yansen Wang, Bao-Liang Lu, Dongsheng Li, and Wei-Long Zheng. "From Static Descriptions to State Dynamics: Multi-Scale Pretraining for EEG Transfer." *International Conference on Learning Representations (ICLR 2027)*, under review.
+3. Xin Xu<sup>&dagger;</sup>, <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Ruicheng Yin, Zilong Wang, Dongqi Han, Dongsheng Li, Bao-Liang Lu, Wei-Long Zheng, and Yansen Wang. "Think It Your Way: Toward Strategy-Open Brain&ndash;Computer Interaction." *ACM CHI Conference on Human Factors in Computing Systems (CHI 2027)*, under review.
+4. **Jun-Yu Pan**, Enze Zhang, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. ["Visualizing the Invisible: Generative Visual Grounding Empowers Universal EEG Understanding in MLLMs."](https://arxiv.org/abs/2605.18172) *International Conference on Learning Representations (ICLR 2027)*, under review.
+5. **Jun-Yu Pan**, Ruicheng Yin, Bao-Liang Lu, Wei-Long Zheng, Dongsheng Li, and Yansen Wang. "Which Data, Not How Much: Architecture-Dependent Data Selection for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
+6. Ruicheng Yin, **Jun-Yu Pan**, Yansen Wang, Xiaoqing Zheng, and Dongsheng Li. "Discern, Then Combine: Probe-Guided Multi-Dataset Fine-Tuning for EEG Foundation Models." *International Conference on Learning Representations (ICLR 2027)*, under review.
+7. <strong>Jun-Yu Pan</strong><sup>&dagger;</sup>, Jing-Yi Liu<sup>&dagger;</sup>, Bao-Liang Lu, and Wei-Long Zheng. "M4Lego: A Multi-Modal Pretraining Framework with Multi-Level Masking and Lego Blocks for Emotion Recognition During Gameplay." *IEEE Transactions on Affective Computing*, under review.
+8. **Jun-Yu Pan**, Hao-Long Yin, and Wei-Long Zheng. ["Double Domain Converter Transformer for Improving EEG-Based Emotion Recognition from Video to Game Scenarios."](https://ieeexplore.ieee.org/document/10889052) *ICASSP 2025*.
 
 &dagger; Equal contribution.
 
